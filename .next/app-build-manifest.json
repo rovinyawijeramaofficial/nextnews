@@ -16,15 +16,20 @@
       "static/chunks/main-app.js",
       "static/chunks/app/news/page.js"
     ],
-    "/news/[id]/page": [
+    "/news/[slug]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/news/[id]/page.js"
+      "static/chunks/app/news/[slug]/page.js"
     ],
-    "/_not-found/page": [
+    "/not-found": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+      "static/chunks/app/not-found.js"
+    ],
+    "/news/[slug]/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/news/[slug]/not-found.js"
     ]
   }
 }

@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 const newsItemSlug = params.slug;
 const newsItem = DUMMY_NEWS.find((newsItem)=>newsItem.slug === newsItemSlug);
 
-    if(newsItem){
+    if(!newsItem){
         notFound();
     }
 

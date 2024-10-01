@@ -5,4 +5,4 @@ export default function NewsNotFoundPage(){
            <p>Unfortunately, We could not fine the requested article!</p>
         </div>
     );
-}
+} 
